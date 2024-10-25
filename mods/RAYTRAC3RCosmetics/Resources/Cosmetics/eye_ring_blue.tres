@@ -7,7 +7,7 @@
 [resource]
 script = ExtResource( 1 )
 name = "Blue Ring"
-desc = ""
+desc = "(by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 3 )
 species_alt_mesh = [  ]

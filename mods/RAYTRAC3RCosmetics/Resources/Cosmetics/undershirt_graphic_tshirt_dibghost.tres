@@ -12,7 +12,7 @@ albedo_texture = ExtResource( 3 )
 [resource]
 script = ExtResource( 1 )
 name = "Dib Ghost T-Shirt"
-desc = "Boo!"
+desc = "Boo! (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 2 )
 mesh = ExtResource( 5 )

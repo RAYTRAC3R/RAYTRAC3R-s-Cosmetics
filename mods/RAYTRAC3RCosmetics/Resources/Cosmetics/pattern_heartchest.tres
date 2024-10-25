@@ -9,7 +9,7 @@
 [resource]
 script = ExtResource( 1 )
 name = "Heart Chest Pattern"
-desc = "Aw!"
+desc = "Aw! (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 2 )
 species_alt_mesh = [  ]

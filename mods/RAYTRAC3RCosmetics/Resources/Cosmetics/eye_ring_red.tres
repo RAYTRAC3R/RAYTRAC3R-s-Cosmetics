@@ -7,7 +7,7 @@
 [resource]
 script = ExtResource( 1 )
 name = "Red Ring"
-desc = "Good as eyes, not on your XBOX 360."
+desc = "Good as eyes, not on your XBOX 360. (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 3 )
 species_alt_mesh = [  ]
