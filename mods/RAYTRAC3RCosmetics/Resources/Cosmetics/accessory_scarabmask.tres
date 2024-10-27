@@ -10,7 +10,7 @@
 [resource]
 script = ExtResource( 1 )
 name = "Scarab Mask"
-desc = "Crossovers..."
+desc = "Crossovers... (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 7 )
 mesh = ExtResource( 4 )
