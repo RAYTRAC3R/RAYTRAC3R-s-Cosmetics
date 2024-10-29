@@ -24,8 +24,8 @@ func _ready():
 	Lure.assign_pattern_texture(ID, "pattern_tux", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/penguin.png")
 	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/penguin.png")
 	Lure.assign_face_animation(ID, ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/penguin_face.tres")
-	#Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_penguin", "res://Assets/Models/Cosmetics/cig_dog.tres")
-	#Lure.assign_cosmetic_mesh(ID, ID + ".accessory_scarabmask", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_scarabmask_dog.tres")
+	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_penguin", "res://Assets/Models/Cosmetics/cig_dog.tres")
+	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_scarabmask", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_scarabmask_penguin.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_babyhair", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_babyhair.tres")
 	
 	

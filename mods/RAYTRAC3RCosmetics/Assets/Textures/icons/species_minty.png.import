@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RAYTRAC3R_1_Orange.png-40523b75cb628527c81de4e1ff24adea.stex"
+path="res://.import/species_minty.png-d63d2daf2025d9d536a62dcd7f5ea477.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/RAYTRAC3RCosmetics/Assets/Textures/eyes/RAYTRAC3R_1_Orange.png"
-dest_files=[ "res://.import/RAYTRAC3R_1_Orange.png-40523b75cb628527c81de4e1ff24adea.stex" ]
+source_file="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/species_minty.png"
+dest_files=[ "res://.import/species_minty.png-d63d2daf2025d9d536a62dcd7f5ea477.stex" ]
 
 [params]
 

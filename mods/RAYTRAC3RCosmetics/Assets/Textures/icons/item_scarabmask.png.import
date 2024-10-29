@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RAYTRAC3R_1_Orange.png-40523b75cb628527c81de4e1ff24adea.stex"
+path="res://.import/item_scarabmask.png-6444ae47d99231d1b41fa8156ea93c50.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/RAYTRAC3RCosmetics/Assets/Textures/eyes/RAYTRAC3R_1_Orange.png"
-dest_files=[ "res://.import/RAYTRAC3R_1_Orange.png-40523b75cb628527c81de4e1ff24adea.stex" ]
+source_file="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/item_scarabmask.png"
+dest_files=[ "res://.import/item_scarabmask.png-6444ae47d99231d1b41fa8156ea93c50.stex" ]
 
 [params]
 

@@ -3,15 +3,15 @@
 [ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=2]
 [ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_babyhair.tres" type="ArrayMesh" id=3]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/item_babyhair.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Materials/brown.tres" type="Material" id=6]
-[ext_resource path="res://Assets/Textures/Particles/sparkle.png" type="Texture" id=7]
 
 [resource]
 script = ExtResource( 1 )
 name = "Baby Hair"
-desc = "Gu ba ba bah! (by RAYTRAC3R"
+desc = "Gu ba ba bah! (by RAYTRAC3R)"
 title = ""
-icon = ExtResource( 7 )
+icon = ExtResource( 4 )
 mesh = ExtResource( 3 )
 species_alt_mesh = [ ExtResource( 3 ), ExtResource( 3 ) ]
 mesh_skin = ExtResource( 2 )
