@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/accessory_scarabmask.png-8be747b1894a10d6b29ae5fa7602a12a.s3tc.stex"
-path.etc2="res://.import/accessory_scarabmask.png-8be747b1894a10d6b29ae5fa7602a12a.etc2.stex"
+path.s3tc="res://.import/accessory_scarabmask.png-3428603b72cc8aeda6df72c5f6bfd7ce.s3tc.stex"
+path.etc2="res://.import/accessory_scarabmask.png-3428603b72cc8aeda6df72c5f6bfd7ce.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://mods/RAYTRAC3RCosmetics/Assets/Textures/accessory_scarabmask.png"
-dest_files=[ "res://.import/accessory_scarabmask.png-8be747b1894a10d6b29ae5fa7602a12a.s3tc.stex", "res://.import/accessory_scarabmask.png-8be747b1894a10d6b29ae5fa7602a12a.etc2.stex" ]
+source_file="res://mods/RAYTRAC3RCosmetics/Assets/Textures/accessories/accessory_scarabmask.png"
+dest_files=[ "res://.import/accessory_scarabmask.png-3428603b72cc8aeda6df72c5f6bfd7ce.s3tc.stex", "res://.import/accessory_scarabmask.png-3428603b72cc8aeda6df72c5f6bfd7ce.etc2.stex" ]
 
 [params]
 
