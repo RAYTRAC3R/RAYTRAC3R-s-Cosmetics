@@ -8,7 +8,7 @@ func _ready():
 	
 	#set up minty head
 	Lure.assign_pattern_texture(ID, "pattern_calico", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
-	Lure.assign_pattern_texture(ID, "pattern_collie", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
+	Lure.assign_pattern_texture(ID, "pattern_collie", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/minty.png")
 	Lure.assign_pattern_texture(ID, "pattern_spotted", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
 	Lure.assign_pattern_texture(ID, "pattern_tux", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
 	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
@@ -34,6 +34,7 @@ func _ready():
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_redplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_yellowplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_glasses_round", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_glassesround_penguin.tres")
+	Lure.assign_cosmetic_mesh(ID, "accessory_eyepatch", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_eyepatch_penguin.tres")
 	
 	
 	#add patterns
@@ -49,6 +50,9 @@ func _ready():
 	Lure.add_content(ID,"green_ring","mod://Resources/Cosmetics/eye_ring_green.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"blue_ring","mod://Resources/Cosmetics/eye_ring_blue.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"purple_ring","mod://Resources/Cosmetics/eye_ring_purple.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"purple_minty","mod://Resources/Cosmetics/eye_minty_purple.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"ac_ankha","mod://Resources/Cosmetics/eye_ac_ankha.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"ac_audie","mod://Resources/Cosmetics/eye_ac_audie.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	
 	#add heads
 	Lure.add_content(ID,"species_minty","mod://Resources/Cosmetics/species_minty.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
