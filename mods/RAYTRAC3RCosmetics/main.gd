@@ -13,6 +13,7 @@ func _ready():
 	Lure.assign_pattern_texture(ID, "pattern_tux", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/tux/minty.png")
 	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
 	Lure.assign_pattern_texture(ID, "ClownMod.pattern_clown", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/clown/minty.png")
+	Lure.assign_pattern_texture(ID, "YeenFishin.pattern_hyena", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/hyena/minty.png")
 	Lure.assign_face_animation(ID, ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/minty_face.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_minty", "res://Assets/Models/Cosmetics/cig_dog.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_scarabmask", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_scarabmask_dog.tres")
