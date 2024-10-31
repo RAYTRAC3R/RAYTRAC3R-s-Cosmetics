@@ -37,6 +37,7 @@ func _ready():
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_yellowplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_glasses_round", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_glassesround_penguin.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_eyepatch", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_eyepatch_penguin.tres")
+	Lure.assign_species_voice(ID, ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/719110__owen_garcia__loud-duck-quack.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/463033__iamaviolin__penguin-calls-noises.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/705839__breviceps__penguin-squeak.wav")
 	
 	
 	#add patterns
