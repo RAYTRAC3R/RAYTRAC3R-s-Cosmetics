@@ -3,6 +3,18 @@ extends Node
 const ID = "RAYTRAC3RCosmetics"
 onready var Lure = get_node("/root/SulayreLure")
 
+var colors = [ "black", "blue", "brown", "green", "grey", "maroon", "midnight", "mint", "olive", "orange", "pink", "purple", "red", "salmon", "silver", "stone", "tan", "teal", "west", "yellow" ]
+var colored_eyes = [ "ring", "minty" ]
+
+func assign_eye_colors(): #shamelessly copied and modified from a snippet ZeaTheMays posted on Discord
+	for eyename in colored_eyes:
+		for color in colors:
+			var itemID = color + "_" + eyename
+			var path = "res://mods/RAYTRAC3RCosmetics/Resources/Cosmetics/Colored Eyes/eye_" + eyename + "_" + color + ".tres"
+			
+			print(ID + " " + itemID + " " + path)
+			Lure.add_content(ID,itemID,path,[Lure.LURE_FLAGS.FREE_UNLOCK])
+
 func _ready():
 	#print("RAYTRAC3R Cosmetics should be working!") #test to see if the gd even works?
 	
@@ -48,13 +60,7 @@ func _ready():
 	Lure.add_content(ID,"dibghost_shirt","mod://Resources/Cosmetics/undershirt_graphic_tshirt_dibghost.tres",[Lure.LURE_FLAGS.FREE_UNLOCK]) # this turns into <RAYTRAC3RCosmetics.dibghost_shirt>
 	
 	#add eyes
-	Lure.add_content(ID,"red_ring","mod://Resources/Cosmetics/eye_ring_red.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"orange_ring","mod://Resources/Cosmetics/eye_ring_orange.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"yellow_ring","mod://Resources/Cosmetics/eye_ring_yellow.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"green_ring","mod://Resources/Cosmetics/eye_ring_green.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"blue_ring","mod://Resources/Cosmetics/eye_ring_blue.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"purple_ring","mod://Resources/Cosmetics/eye_ring_purple.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"purple_minty","mod://Resources/Cosmetics/eye_minty_purple.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	assign_eye_colors()
 	Lure.add_content(ID,"ac_ankha","mod://Resources/Cosmetics/eye_ac_ankha.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"ac_audie","mod://Resources/Cosmetics/eye_ac_audie.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	
