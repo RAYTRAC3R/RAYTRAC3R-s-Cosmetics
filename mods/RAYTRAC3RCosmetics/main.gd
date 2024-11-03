@@ -4,7 +4,7 @@ const ID = "RAYTRAC3RCosmetics"
 onready var Lure = get_node("/root/SulayreLure")
 
 var colors = [ "black", "blue", "brown", "green", "grey", "maroon", "midnight", "mint", "olive", "orange", "pink", "purple", "red", "salmon", "silver", "stone", "tan", "teal", "west", "yellow" ]
-var colored_eyes = [ "ring", "minty" ]
+var colored_eyes = [ "ring", "minty", "scarab" ]
 
 func assign_eye_colors(): #shamelessly copied and modified from a snippet ZeaTheMays posted on Discord
 	for eyename in colored_eyes:
@@ -25,7 +25,7 @@ func _ready():
 	Lure.assign_pattern_texture(ID, "pattern_tux", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/tux/minty.png")
 	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
 	Lure.assign_pattern_texture(ID, "ClownMod.pattern_clown", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/clown/minty.png")
-	Lure.assign_pattern_texture(ID, "YeenFishin.pattern_hyena", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/hyena/minty.png")
+	Lure.assign_pattern_texture(ID, "DarnHyena.YeenFishin.pattern_hyena", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/hyena/minty.png")
 	Lure.assign_pattern_texture(ID, "SpookMod.stitch_pattern", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/stitches/minty.png")
 	Lure.assign_face_animation(ID, ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/minty_face.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_minty", "res://Assets/Models/Cosmetics/cig_dog.tres")
