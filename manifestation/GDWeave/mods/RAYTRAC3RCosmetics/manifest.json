@@ -1,0 +1,15 @@
+{
+  "Id": "RAYTRAC3RCosmetics",
+  "AssemblyPath": null,
+  "PackPath": "RAYTRAC3RCosmetics.pck",
+  "Dependencies": [
+    "Sulayre.Lure"
+  ],
+  "Metadata": {
+    "Name": "RAYTRAC3RCosmetics",
+    "Author": "RAYTRAC3R",
+    "Version": "0.4.7",
+    "Description": "Lure-based mod that adds compatibility between various modded species and modded patterns.",
+    "Homepage": "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/"
+  }
+}

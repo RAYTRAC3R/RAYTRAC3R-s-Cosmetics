@@ -1,0 +1,10 @@
+{
+  "name": "RAYTRAC3RCosmetics",
+  "version_number": "0.4.7",
+  "website_url": "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/",
+  "description": "Lure-based mod that adds compatibility between various modded species and modded patterns.",
+  "dependencies": [
+    "NotNet-GDWeave-2.0.12",
+    "Sulayre-Lure-3.1.3"
+  ]
+}
