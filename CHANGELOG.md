@@ -1,3 +1,7 @@
+0.4.7
+- Added more plumage hairs
+- Added heartchest pattern for Possum.
+
 0.4.6
 - DO NOT BOOT THE GAME WITH THE PREVIOUS VERSION it'll corrupt your save :sob: this has been fixed
 
