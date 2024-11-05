@@ -1,0 +1,22 @@
+id = "RAYTRAC3RCosmetics"
+name = "RAYTRAC3RCosmetics"
+description = "Lure-based mod that adds compatibility between various modded species and modded patterns."
+version = "0.4.7"
+homepage = "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/"
+author = "RAYTRAC3R"
+
+icon = "icon.png"
+readme = "README.md"
+changelog = "CHANGELOG.md" # optional
+
+# both are optional here, pick what you want
+[project]
+godot = "C:/samidev/RAYTRAC3R-s-Cosmetics/project.godot"
+
+[[dependencies]]
+thunderstore_version = "NotNet-GDWeave-2.0.12"
+
+# example dependency
+[[dependencies]]
+id = "Sulayre.Lure"
+thunderstore_version = "Sulayre-Lure-3.1.3"
