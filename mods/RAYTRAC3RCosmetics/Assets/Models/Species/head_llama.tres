@@ -1,6 +1,7 @@
 [gd_resource type="ArrayMesh" load_steps=2 format=2]
 
-[ext_resource path="res://Material.material" type="Material" id=1]
+[sub_resource type="SpatialMaterial" id=1]
+vertex_color_use_as_albedo = true
 
 [resource]
 resource_name = "player_template_modded_Cube"
@@ -11,7 +12,7 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 2070,
-"material": ExtResource( 1 ),
+"material": SubResource( 1 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( 0, 0, 0, -1, -1, -1 ), AABB( -0.520836, 0.843581, -0.503436, 1.04167, 1.21943, 0.988044 ) ],
 "vertex_count": 500

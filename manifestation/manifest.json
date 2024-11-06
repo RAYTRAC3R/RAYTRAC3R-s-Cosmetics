@@ -1,6 +1,6 @@
 {
   "name": "RAYTRAC3RCosmetics",
-  "version_number": "0.4.7",
+  "version_number": "0.4.8",
   "website_url": "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/",
   "description": "Lure-based mod that adds compatibility between various modded species and modded patterns.",
   "dependencies": [

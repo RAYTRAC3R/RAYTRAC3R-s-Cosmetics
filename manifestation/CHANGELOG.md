@@ -1,3 +1,7 @@
+0.4.8
+- Fixed heartchest pattern for Possum.
+- Added Llama species (hats and most accessories do not currently work with them)
+
 0.4.7
 - Added more plumage hairs
 - Added heartchest pattern for Possum.
