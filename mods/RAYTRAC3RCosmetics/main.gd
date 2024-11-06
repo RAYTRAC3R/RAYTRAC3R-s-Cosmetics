@@ -59,7 +59,7 @@ func _ready():
 	
 	#add patterns
 	Lure.add_content(ID,"pattern_heartchest","mod://Resources/Cosmetics/pattern_heartchest.tres", [Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", "Awesome Possum.species_possum", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/minty.png")
+	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", "Awesome Possum.species_possum", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/possum.png")
 	
 	#add shirts
 	Lure.add_content(ID,"dibghost_shirt","mod://Resources/Cosmetics/undershirt_graphic_tshirt_dibghost.tres",[Lure.LURE_FLAGS.FREE_UNLOCK]) # this turns into <RAYTRAC3RCosmetics.dibghost_shirt>
