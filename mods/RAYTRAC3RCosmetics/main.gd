@@ -56,6 +56,13 @@ func _ready():
 	Lure.assign_cosmetic_mesh(ID, "accessory_eyepatch", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_eyepatch_penguin.tres")
 	Lure.assign_species_voice(ID, ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/719110__owen_garcia__loud-duck-quack.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/463033__iamaviolin__penguin-calls-noises.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/705839__breviceps__penguin-squeak.wav")
 	
+	#set up llama head
+	Lure.assign_pattern_texture(ID, "pattern_calico", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
+	Lure.assign_pattern_texture(ID, "pattern_collie", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
+	Lure.assign_pattern_texture(ID, "pattern_spotted", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
+	Lure.assign_pattern_texture(ID, "pattern_tux", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
+	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
+	Lure.assign_face_animation(ID, ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/llama_face.tres")
 	
 	#add patterns
 	Lure.add_content(ID,"pattern_heartchest","mod://Resources/Cosmetics/pattern_heartchest.tres", [Lure.LURE_FLAGS.FREE_UNLOCK])
@@ -72,6 +79,7 @@ func _ready():
 	#add heads
 	Lure.add_content(ID,"species_minty","mod://Resources/Cosmetics/species_minty.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"species_penguin","mod://Resources/Cosmetics/species_penguin.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"species_llama","mod://Resources/Cosmetics/species_llama.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	
 	#add colors
 	Lure.add_content(ID,"pcolor_mint","mod://Resources/Cosmetics/pcolor_mint.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
