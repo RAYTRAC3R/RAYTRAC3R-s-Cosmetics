@@ -3,7 +3,7 @@
 [ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
 [ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/head_llama.tres" type="ArrayMesh" id=2]
 [ext_resource path="res://Assets/Models/Cosmetics/rig_main.tres" type="Skin" id=3]
-[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/species_minty.png" type="Texture" id=4]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/species_llama.png" type="Texture" id=4]
 
 [resource]
 script = ExtResource( 1 )
