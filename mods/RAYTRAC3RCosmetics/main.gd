@@ -5,15 +5,34 @@ onready var Lure = get_node("/root/SulayreLure")
 
 var colors = [ "black", "blue", "brown", "green", "grey", "maroon", "mint", "olive", "orange", "pink", "purple", "red", "salmon", "silver", "tan", "teal", "yellow" ] #stone is temporarily removed for being too close to silver and just adding clutter, same with west and olive, midnight and black
 var colored_eyes = [ "ring", "minty", "scarab" ]
+var colored_accessories = [ "plumage" ]
 
 func assign_eye_colors(): #shamelessly copied and modified from a snippet ZeaTheMays posted on Discord
 	for eyename in colored_eyes:
 		for color in colors:
-			var itemID = color + "_" + eyename
+			var itemID = "eye_" + color + "_" + eyename
 			var path = "res://mods/RAYTRAC3RCosmetics/Resources/Cosmetics/Colored Eyes/eye_" + eyename + "_" + color + ".tres"
 			
-			print(ID + " " + itemID + " " + path)
+			#print(ID + " " + itemID + " " + path)
 			Lure.add_content(ID,itemID,path,[Lure.LURE_FLAGS.FREE_UNLOCK])
+			
+func assign_acc_colors(): #shamelessly copied and modified from a snippet ZeaTheMays posted on Discord
+	for accname in colored_accessories:
+		for color in colors:
+			var itemID = "accessory_" + color + accname
+			var path = "res://mods/RAYTRAC3RCosmetics/Resources/Cosmetics/Colored Accessories/accessory_" + color + accname + ".tres"
+			
+			#print(ID + " " + itemID + " " + path)
+			Lure.add_content(ID,itemID,path,[Lure.LURE_FLAGS.FREE_UNLOCK])
+			
+func assign_color_meshes(species):
+	for accname in colored_accessories:
+		for color in colors:
+			var itemID = ID + ".accessory_" + color + accname
+			var speciesID = ID + ".species_" + species
+			var path = "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_" + accname + "_" + species + ".tres"
+			
+			Lure.assign_cosmetic_mesh(ID,itemID,speciesID,path)
 
 func _ready():
 	#print("RAYTRAC3R Cosmetics should be working!") #test to see if the gd even works?
@@ -42,16 +61,7 @@ func _ready():
 	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_penguin", "res://Assets/Models/Cosmetics/cig_dog.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_scarabmask", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_scarabmask_penguin.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_babyhair", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_babyhair.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_plumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_blueplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_greenplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_pinkplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_redplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_yellowplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_greyplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_maroonplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_mintplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
-	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_silverplumage", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres")
+	assign_color_meshes("penguin")
 	Lure.assign_cosmetic_mesh(ID, "accessory_glasses_round", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_glassesround_penguin.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_eyepatch", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_eyepatch_penguin.tres")
 	Lure.assign_species_voice(ID, ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/719110__owen_garcia__loud-duck-quack.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/463033__iamaviolin__penguin-calls-noises.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/705839__breviceps__penguin-squeak.wav")
@@ -77,8 +87,8 @@ func _ready():
 	
 	#add eyes
 	assign_eye_colors()
-	Lure.add_content(ID,"ac_ankha","mod://Resources/Cosmetics/eye_ac_ankha.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"ac_audie","mod://Resources/Cosmetics/eye_ac_audie.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"eye_ac_ankha","mod://Resources/Cosmetics/eye_ac_ankha.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"eye_ac_audie","mod://Resources/Cosmetics/eye_ac_audie.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	
 	#add heads
 	Lure.add_content(ID,"species_minty","mod://Resources/Cosmetics/species_minty.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
@@ -92,15 +102,6 @@ func _ready():
 	Lure.add_content(ID,"scolor_silver","mod://Resources/Cosmetics/scolor_silver.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 
 	#add accessories
+	assign_acc_colors()
 	Lure.add_content(ID,"accessory_scarabmask","mod://Resources/Cosmetics/accessory_scarabmask.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"accessory_babyhair","mod://Resources/Cosmetics/accessory_babyhair.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_plumage","mod://Resources/Cosmetics/accessory_plumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_pinkplumage","mod://Resources/Cosmetics/accessory_pinkplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_redplumage","mod://Resources/Cosmetics/accessory_redplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_yellowplumage","mod://Resources/Cosmetics/accessory_yellowplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_greenplumage","mod://Resources/Cosmetics/accessory_greenplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_blueplumage","mod://Resources/Cosmetics/accessory_blueplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_greyplumage","mod://Resources/Cosmetics/accessory_greyplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_maroonplumage","mod://Resources/Cosmetics/accessory_maroonplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_mintplumage","mod://Resources/Cosmetics/accessory_mintplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
-	Lure.add_content(ID,"accessory_silverplumage","mod://Resources/Cosmetics/accessory_silverplumage.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
