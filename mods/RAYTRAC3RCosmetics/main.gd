@@ -61,7 +61,7 @@ func _ready():
 	Lure.assign_pattern_texture(ID, "pattern_collie", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
 	Lure.assign_pattern_texture(ID, "pattern_spotted", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
 	Lure.assign_pattern_texture(ID, "pattern_tux", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
-	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/collie/llama.png")
+	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/tux/llama.png")
 	Lure.assign_face_animation(ID, ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/llama_face.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_cig_llama.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_antlers", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_llama.tres")
