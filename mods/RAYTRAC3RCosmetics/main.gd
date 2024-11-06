@@ -65,6 +65,7 @@ func _ready():
 	Lure.assign_face_animation(ID, ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/llama_face.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_cig_llama.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_antlers", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_llama.tres")
+	Lure.assign_cosmetic_mesh(ID, "Codsmetics.accessory_dark_antlers", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_llama.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_bandaid", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_bandaid_llama.tres")
 	
 	#add patterns
