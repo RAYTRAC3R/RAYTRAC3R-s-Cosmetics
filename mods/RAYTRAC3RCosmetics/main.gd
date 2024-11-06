@@ -48,8 +48,12 @@ func _ready():
 	Lure.assign_pattern_texture(ID, "SpookMod.stitch_pattern", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/pattern_compatibility/stitches/minty.png")
 	Lure.assign_face_animation(ID, ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Species/minty_face.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_cig", ID + ".species_minty", "res://Assets/Models/Cosmetics/cig_dog.tres")
+	Lure.assign_cosmetic_mesh(ID, "accessory_antlers", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_minty.tres")
+	Lure.assign_cosmetic_mesh(ID, "Codsmetics.accessory_dark_antlers", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_minty.tres")
+	Lure.assign_cosmetic_mesh(ID, "accessory_bandaid", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_bandaid_minty.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_scarabmask", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_scarabmask_dog.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_babyhair", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_babyhair.tres")
+	assign_color_meshes("minty")
 	
 	#set up penguin head
 	Lure.assign_pattern_texture(ID, "pattern_calico", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/penguin.png")
@@ -80,6 +84,7 @@ func _ready():
 	Lure.assign_cosmetic_mesh(ID, "accessory_antlers", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_llama.tres")
 	Lure.assign_cosmetic_mesh(ID, "Codsmetics.accessory_dark_antlers", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_antlers_llama.tres")
 	Lure.assign_cosmetic_mesh(ID, "accessory_bandaid", ID + ".species_llama", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_bandaid_llama.tres")
+	assign_color_meshes("llama")
 	
 	#add patterns
 	Lure.add_content(ID,"pattern_heartchest","mod://Resources/Cosmetics/pattern_heartchest.tres", [Lure.LURE_FLAGS.FREE_UNLOCK])
