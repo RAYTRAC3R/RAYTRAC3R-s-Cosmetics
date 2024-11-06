@@ -1,3 +1,8 @@
+0.4.9
+- Made Llama compatible with Cigarette, Antlers, and Bandaid. Also Dark Antlers from Codsmetics.
+- Changed Tux head texture for Llama slightly
+- Fixed mod description on Thunderstore
+
 0.4.8
 - Fixed heartchest pattern for Possum.
 - Added Llama species (hats and most accessories do not currently work with them)
