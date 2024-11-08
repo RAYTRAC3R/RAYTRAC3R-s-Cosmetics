@@ -1,0 +1,31 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres" type="ArrayMesh" id=2]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/item_batwings.png" type="Texture" id=3]
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=4]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=5]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_batwings.tres" type="ArrayMesh" id=6]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.67451, 0, 0.160784, 1 )
+
+[resource]
+script = ExtResource( 4 )
+name = "Black Bat Wings"
+desc = "Gone batty! (by RAYTRAC3R)"
+title = ""
+icon = ExtResource( 3 )
+mesh = ExtResource( 6 )
+species_alt_mesh = [ ExtResource( 2 ), ExtResource( 2 ) ]
+mesh_skin = ExtResource( 5 )
+material = SubResource( 1 )
+main_color = Color( 0.67451, 0, 0.160784, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "accessory"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = true
+cost = 10

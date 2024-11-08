@@ -5,7 +5,7 @@ onready var Lure = get_node("/root/SulayreLure")
 
 var colors = [ "black", "blue", "brown", "green", "grey", "maroon", "mint", "olive", "orange", "pink", "purple", "red", "salmon", "silver", "tan", "teal", "yellow" ] #stone is temporarily removed for being too close to silver and just adding clutter, same with west and olive, midnight and black
 var colored_eyes = [ "ring", "minty", "scarab" ]
-var colored_accessories = [ "plumage" ]
+var colored_accessories = [ "plumage", "batwings" ]
 
 func assign_eye_colors(): #shamelessly copied and modified from a snippet ZeaTheMays posted on Discord
 	for eyename in colored_eyes:

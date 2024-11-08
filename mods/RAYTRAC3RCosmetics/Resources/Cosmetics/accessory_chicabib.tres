@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=7 format=2]
 
 [ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Textures/CosmeticIcons/cosmetic_icons32.png" type="Texture" id=2]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/item_chicabib.png" type="Texture" id=2]
 [ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/accessories/chicabib2.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=4]
 [ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_chicabib.tres" type="ArrayMesh" id=5]
