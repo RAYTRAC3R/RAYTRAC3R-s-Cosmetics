@@ -1,3 +1,13 @@
+0.4.10
+- Thanks for 10000 downloads! This is a temporary update before **THE BIG ONE**
+- Updated dependencies for 1.0.9 of Webfishing.
+- Added unique icon for Llama
+- Made Penguin compatible with Antlers and Bandaid. Also Dark Antlers from Codsmetics.
+- Made Batdog compatible with Antlers and Bandaid. Also Dark Antlers from Codsmetics.
+- Fixed Plumage Hair on Batdog and Llama
+- Cleaned up code a bit, mainly for colored accessories. 
+- **Your Web Wardrobe outfits may be missing modded eyes** due to an item ID update specifically for the eyes in this mod. You just need to reselect the eyes you had, then save a new version of the outfit.
+
 0.4.9
 - Made Llama compatible with Cigarette, Antlers, and Bandaid. Also Dark Antlers from Codsmetics.
 - Changed Tux head texture for Llama slightly

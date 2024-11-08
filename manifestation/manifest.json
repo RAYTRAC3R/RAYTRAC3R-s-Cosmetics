@@ -1,10 +1,10 @@
 {
   "name": "RAYTRAC3RCosmetics",
-  "version_number": "0.4.9",
+  "version_number": "0.4.10",
   "website_url": "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/",
   "description": "Lure-based mod that adds a bunch of cosmetics and 3 new species including llamas and penguins!",
   "dependencies": [
-    "NotNet-GDWeave-2.0.12",
-    "Sulayre-Lure-3.1.3"
+    "NotNet-GDWeave-2.0.13",
+    "Sulayre-Lure-4.1.0"
   ]
 }
