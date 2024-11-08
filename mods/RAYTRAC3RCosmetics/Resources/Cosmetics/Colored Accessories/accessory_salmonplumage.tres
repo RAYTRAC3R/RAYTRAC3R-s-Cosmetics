@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=2]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/item_headplumage.png" type="Texture" id=4]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres" type="ArrayMesh" id=5]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.964706, 0.521569, 0.415686, 1 )
+
+[resource]
+script = ExtResource( 1 )
+name = "Salmon Head Plumage"
+desc = "I'm not the best at hair... (by RAYTRAC3R)"
+title = ""
+icon = ExtResource( 4 )
+mesh = ExtResource( 5 )
+species_alt_mesh = [ ExtResource( 5 ), ExtResource( 5 ) ]
+mesh_skin = ExtResource( 2 )
+material = SubResource( 1 )
+main_color = Color( 0.964706, 0.521569, 0.415686, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "accessory"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = true
+cost = 10

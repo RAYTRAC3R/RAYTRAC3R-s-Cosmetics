@@ -1,6 +1,5 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" load_steps=6 format=2]
 
-[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_plumage.tres" type="ArrayMesh" id=2]
 [ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/icons/item_batwings.png" type="Texture" id=3]
 [ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=4]
 [ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=5]
@@ -16,7 +15,7 @@ desc = "Gone batty! (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 3 )
 mesh = ExtResource( 6 )
-species_alt_mesh = [ ExtResource( 2 ), ExtResource( 2 ) ]
+species_alt_mesh = [  ]
 mesh_skin = ExtResource( 5 )
 material = SubResource( 1 )
 main_color = Color( 0.701961, 0.847059, 0.666667, 1 )
