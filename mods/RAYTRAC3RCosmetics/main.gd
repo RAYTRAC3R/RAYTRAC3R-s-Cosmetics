@@ -115,3 +115,4 @@ func _ready():
 	assign_acc_colors()
 	Lure.add_content(ID,"accessory_scarabmask","mod://Resources/Cosmetics/accessory_scarabmask.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"accessory_babyhair","mod://Resources/Cosmetics/accessory_babyhair.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
+	Lure.add_content(ID,"accessory_chicabib","mod://Resources/Cosmetics/accessory_chicabib.tres",[Lure.LURE_FLAGS.FREE_UNLOCK])
