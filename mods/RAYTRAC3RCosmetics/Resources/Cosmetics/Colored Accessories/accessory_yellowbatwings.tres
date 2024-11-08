@@ -7,11 +7,11 @@
 [ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_batwings.tres" type="ArrayMesh" id=6]
 
 [sub_resource type="SpatialMaterial" id=1]
-albedo_color = Color( 1, 0, 0.192157, 1 )
+albedo_color = Color( 0.901961, 0.615686, 0, 1 )
 
 [resource]
 script = ExtResource( 4 )
-name = "Black Bat Wings"
+name = "Yellow Bat Wings"
 desc = "Gone batty! (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 3 )
@@ -19,7 +19,7 @@ mesh = ExtResource( 6 )
 species_alt_mesh = [ ExtResource( 2 ), ExtResource( 2 ) ]
 mesh_skin = ExtResource( 5 )
 material = SubResource( 1 )
-main_color = Color( 1, 0, 0.192157, 1 )
+main_color = Color( 0.901961, 0.615686, 0, 1 )
 body_pattern = [  ]
 mirror_face = true
 flip = false

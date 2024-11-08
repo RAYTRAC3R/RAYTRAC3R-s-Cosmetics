@@ -11,7 +11,7 @@ albedo_color = Color( 0.643137, 0.458824, 0.415686, 1 )
 
 [resource]
 script = ExtResource( 4 )
-name = "Black Bat Wings"
+name = "Grey Bat Wings"
 desc = "Gone batty! (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 3 )

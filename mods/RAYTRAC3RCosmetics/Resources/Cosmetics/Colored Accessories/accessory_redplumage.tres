@@ -10,7 +10,7 @@ albedo_color = Color( 1, 0, 0.192157, 1 )
 
 [resource]
 script = ExtResource( 1 )
-name = "Silver Head Plumage"
+name = "Red Head Plumage"
 desc = "I'm not the best at hair... (by RAYTRAC3R)"
 title = ""
 icon = ExtResource( 4 )
