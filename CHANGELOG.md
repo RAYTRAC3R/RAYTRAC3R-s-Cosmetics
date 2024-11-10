@@ -1,3 +1,6 @@
+0.5.1
+- Added Sprout, Zea, and Periwinkle to the color list for colored eyes and accessories. These match colors of the same names from Colors Expanded, Lure Showcase, and MoorColors.
+
 0.5.0: THE BIG ONE
 - Added mackerel tabby pattern, currently only works on cat and dog.
 - Added tabby pattern, also currently only works on cat and dog.

@@ -1,7 +1,7 @@
 id = "RAYTRAC3RCosmetics"
 name = "RAYTRAC3RCosmetics"
 description = "Lure-based mod that adds a bunch of cosmetics and 3 new species including llamas and penguins!"
-version = "0.5.0"
+version = "0.5.1"
 homepage = "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/"
 author = "RAYTRAC3R"
 
@@ -19,4 +19,4 @@ thunderstore_version = "NotNet-GDWeave-2.0.13"
 # example dependency
 [[dependencies]]
 id = "Sulayre.Lure"
-thunderstore_version = "Sulayre-Lure-4.1.0"
+thunderstore_version = "Sulayre-Lure-4.2.0"
