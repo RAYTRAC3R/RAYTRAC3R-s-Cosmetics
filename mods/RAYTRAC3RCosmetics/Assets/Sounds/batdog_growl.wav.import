@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/batdog_growl.wav-a34c42fe1355db3f19e66857e3e10e3f.sample"
+
+[deps]
+
+source_file="res://mods/RAYTRAC3RCosmetics/Assets/Sounds/batdog_growl.wav"
+dest_files=[ "res://.import/batdog_growl.wav-a34c42fe1355db3f19e66857e3e10e3f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

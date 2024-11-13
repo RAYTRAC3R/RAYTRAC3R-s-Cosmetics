@@ -54,6 +54,7 @@ func _ready():
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_scarabmask", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_scarabmask_dog.tres")
 	Lure.assign_cosmetic_mesh(ID, ID + ".accessory_babyhair", ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Models/Accessories/accessory_babyhair.tres")
 	assign_color_meshes("minty")
+	Lure.assign_species_voice(ID, ID + ".species_minty", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/batdog_bark.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/batdog_growl.wav", "res://mods/RAYTRAC3RCosmetics/Assets/Sounds/batdog_whine.wav")
 	
 	#set up penguin head
 	Lure.assign_pattern_texture(ID, "pattern_calico", ID + ".species_penguin", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/penguin.png")

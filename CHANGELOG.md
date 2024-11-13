@@ -1,3 +1,7 @@
+0.5.2
+- Added sounds for dogbat species.
+- Fixed Brown Bat Wings displaying as Brown Plumage Hair on cat and dog.
+
 0.5.1
 - Added Sprout, Zea, and Periwinkle to the color list for colored eyes and accessories. These match colors of the same names from Colors Expanded, Lure Showcase, and MoorColors.
 
