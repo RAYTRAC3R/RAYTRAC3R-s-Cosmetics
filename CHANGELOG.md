@@ -1,3 +1,31 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+From 0.5.3 onwards, The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and the project adheres to a variant of [Semantic Versioning](https://semver.org/spec/v2.0.0.html). 
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+
+- MAJOR version when you make incompatible dependency or code changes.
+- MINOR version when you add entirely new mesh-based cosmetics or change an item ID.
+- PATCH version when you make fixes or very small cosmetic additions (such as recolors or facial features).
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+## [Unreleased]
+
+## [0.5.3] - 2024-11-16
+
+### Added
+- Added white plumage hair and white bat wings as accessories
+- Added white variants of each eye
+
+### Fixed
+- Fixed white formerly not being a color that gets scanned for because i forgot it somehow *sob*
+- Fixed Minty eyes in Zea color being called 'Zea Sprout' in the menu text.
+
+# OLD CHANGELOGS
+
 0.5.2
 - Added sounds for dogbat species.
 - Fixed Brown Bat Wings displaying as Brown Plumage Hair on cat and dog.
