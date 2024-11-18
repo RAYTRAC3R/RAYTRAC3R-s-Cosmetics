@@ -1,0 +1,47 @@
+[gd_resource type="Resource" load_steps=12 format=2]
+
+[ext_resource path="res://mods/Lure/classes/lure_cosmetic.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Textures/CosmeticIcons/cosmetic_icons61.png" type="Texture" id=2]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/cat.png" type="Texture" id=3]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/dog.png" type="Texture" id=4]
+[ext_resource path="res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/body.png" type="Texture" id=5]
+
+[sub_resource type="GDScript" id=4]
+
+[sub_resource type="Resource" id=5]
+resource_name = "Drop Here"
+script = SubResource( 4 )
+
+[sub_resource type="GDScript" id=7]
+
+[sub_resource type="Resource" id=8]
+resource_name = "Body Pattern"
+script = SubResource( 7 )
+species = "body"
+pattern = ExtResource( 5 )
+
+[sub_resource type="Resource" id=10]
+resource_name = "Body Pattern"
+script = SubResource( 7 )
+species = "species_cat"
+pattern = ExtResource( 3 )
+
+[sub_resource type="Resource" id=12]
+resource_name = "Body Pattern"
+script = SubResource( 7 )
+species = "species_dog"
+pattern = ExtResource( 4 )
+
+[resource]
+script = ExtResource( 1 )
+name = "Heart Chest Pattern"
+category = "pattern"
+desc = "Aw! (by RAYTRAC3R)"
+icon = ExtResource( 2 )
+main_color = Color( 0, 0, 0, 1 )
+lure_flags = 1
+extended_body_patterns = [ SubResource( 8 ), SubResource( 10 ), SubResource( 12 ) ]
+in_rotation = false
+chest_reward = false
+cost = 10
+_import_resource = SubResource( 5 )
