@@ -90,6 +90,7 @@ func _ready():
 	#add patterns
 	Lure.add_content(ID,"pattern_heartchest","mod://Resources/Cosmetics/pattern_heartchest.tres", [Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", "Awesome Possum.species_possum", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/possum.png")
+	Lure.assign_pattern_texture(ID, ID + ".pattern_heartchest", "Zea.Species.species_axolotl", "res://mods/RAYTRAC3RCosmetics/Assets/Textures/heartchest/axolotl.png")
 	Lure.add_content(ID,"pattern_macktabby","mod://Resources/Cosmetics/pattern_macktabby.tres", [Lure.LURE_FLAGS.FREE_UNLOCK])
 	Lure.add_content(ID,"pattern_tabby","mod://Resources/Cosmetics/pattern_tabby.tres", [Lure.LURE_FLAGS.FREE_UNLOCK])
 	

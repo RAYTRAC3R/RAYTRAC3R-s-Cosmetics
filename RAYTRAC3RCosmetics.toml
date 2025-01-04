@@ -1,7 +1,7 @@
 id = "RAYTRAC3RCosmetics"
 name = "RAYTRAC3RCosmetics"
 description = "Lure-based mod that adds a bunch of cosmetics and 3 new species including llamas and penguins!"
-version = "0.5.3"
+version = "1.0.0"
 homepage = "https://github.com/RAYTRAC3R/RAYTRAC3R-s-Cosmetics/"
 author = "RAYTRAC3R"
 
@@ -14,9 +14,9 @@ changelog = "CHANGELOG.md" # optional
 godot = "C:/samidev/RAYTRAC3R-s-Cosmetics/project.godot"
 
 [[dependencies]]
-thunderstore_version = "NotNet-GDWeave-2.0.13"
+thunderstore_version = "NotNet-GDWeave-2.0.14"
 
 # example dependency
 [[dependencies]]
-id = "Sulayre.Lure"
-thunderstore_version = "Sulayre-Lure-4.2.1"
+id = "TeamLure.Lure"
+thunderstore_version = "TeamLure-LureRefreshed-4.3.0"
