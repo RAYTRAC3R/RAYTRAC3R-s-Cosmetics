@@ -14,6 +14,11 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-01-04
+
+### Fixed
+- Fixed dependencies
+
 ## [1.0.0] - 2025-01-04
 
 ### Added

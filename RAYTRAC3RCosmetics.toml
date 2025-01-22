@@ -18,5 +18,5 @@ thunderstore_version = "NotNet-GDWeave-2.0.14"
 
 # example dependency
 [[dependencies]]
-id = "TeamLure.Lure"
+id = "Sulayre.Lure"
 thunderstore_version = "TeamLure-LureRefreshed-4.3.0"

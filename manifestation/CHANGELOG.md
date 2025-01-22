@@ -14,6 +14,20 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-01-04
+
+### Fixed
+- Fixed dependencies
+
+## [1.0.0] - 2025-01-04
+
+### Added
+- Added heartchest pattern for axolotl.
+
+### Changed
+- Updated dependencies
+
+
 ## [0.5.3] - 2024-11-16
 
 ### Added

@@ -3,7 +3,7 @@
   "AssemblyPath": null,
   "PackPath": "RAYTRAC3RCosmetics.pck",
   "Dependencies": [
-    "TeamLure.Lure"
+    "Sulayre.Lure"
   ],
   "Metadata": {
     "Name": "RAYTRAC3RCosmetics",
